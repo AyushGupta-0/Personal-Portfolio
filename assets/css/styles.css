@@ -463,6 +463,31 @@ img {
 .skills__git{
   width: 80%;
 }
+
+.skills__bs{
+  width: 90%;
+}
+.skills__tc{
+  width: 85%;
+}
+.skills__nj{
+  width: 80%;
+}
+.skills__s{
+  width: 85%;
+}
+.skills__sc{
+  width: 80%;
+}
+.skills__xrp{
+  width: 80%;
+}
+.skills__bc{
+  width: 80%;
+}
+.skills__figma{
+  width:90%;
+}
 .skills__close .skills__list{
   height: 0;
   overflow: hidden;
