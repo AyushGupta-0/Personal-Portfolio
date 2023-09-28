@@ -88,7 +88,10 @@ let swiper = new Swiper(".portfolio__container", {
 /*==================== TESTIMONIAL ====================*/
 const formEL = document.querySelector('.form')
 
-formEL.addEventListener('submit', event=>{
+
+
+
+formEL.addEventListener('submit', (event)=>{
     event.preventDefault();
     console.log('1');
 
@@ -97,14 +100,8 @@ formEL.addEventListener('submit', event=>{
     const data = Object.fromEntries(formData);
 
     console.log(data);
-
-    fetch( 'https://crudcrud.com/api/40fcf18b3a8f4fc091615b7bcf0c7f46/data' , {
-        method: 'POST', 
-        headers:{
-            'Content-Type' : 'application/json'
-        },
-        body: JSON.stringify(data) 
-    })
+    
+  
 
 })
 
